@@ -1,6 +1,0 @@
-This is a simple admin dashboard layout made using HTML and CSS Grid. 
-The page is divided into four sections: a header at the top. 
-. A sidebar on the left for navigation where it has home,users and settings.
-. A main content area on the right.
-. And a footer at the bottom.
- The grid layout helps organize the content neatly on the page, making it clean and neat.
