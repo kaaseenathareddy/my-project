@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Exp2.3</title>
+  <style>
+    body {
+      text-align: center;
+    }
+
+    canvas {
+      border: 1px solid black;
+      cursor: crosshair;
+    }
+
+    /* Wrapper to align heading and canvas */
+    .canvas-container {
+      display: inline-block;
+      text-align: left;  /* ensures heading aligns with canvas left */
+    }
+
+    .canvas-container h1 {
+      margin: 0 0 5px 0;
+      font-size: 24px;         /* adjust size */
+      font-weight: bold;       /* make it bold */
+      font-family: Arial, Helvetica, sans-serif; /* clean sans-serif look */
+    }
+  </style>
+</head>
+<body>
+  <div class="canvas-container">
+    <h1>SVG Drawing Tool</h1>
+    <canvas id="C" height="500" width="800"></canvas>
+  </div>
+
+  <script>
+    const canvas = document.getElementById('C');
+    const context = canvas.getContext('2d');
+    let drawing = false;
+
+    // Start drawing
+    canvas.addEventListener('mousedown', function(event) {
+      drawing = true;
+      context.beginPath();  
+      context.moveTo(event.offsetX, event.offsetY);
+      context.strokeStyle = "#0077BE"; 
+    });
+
+    // Draw while moving
+    canvas.addEventListener('mousemove', function(event) { 
+      if (drawing) {
+        context.lineTo(event.offsetX, event.offsetY);
+        context.stroke();
+      }
+    });
+
+    // Stop drawing
+    canvas.addEventListener('mouseup', function(event) {
+      drawing = false;
+    });
+
+    // If mouse leaves canvas, stop drawing
+    canvas.addEventListener('mouseleave', function(event) {
+      drawing = false;
+    });
+  </script>
+</body>
+</html>
