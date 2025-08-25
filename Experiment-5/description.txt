@@ -1,0 +1,22 @@
+This project demonstrates how to build an interactive product filtering system on a web page using JavaScript DOM manipulation. The page contains a product list (e.g., shoes, shirts, gadgets) along with a dropdown menu that allows the user to filter products by category.
+
+When the user selects a category from the dropdown.
+
+Only the products belonging to that category are displayed.
+
+If the user selects "All", every product is shown again.
+
+The filtering happens instantly without reloading the page, making the experience smooth and dynamic.
+
+This task helps in understanding:
+
+How to use HTML to create a structured product list and dropdown menu.
+
+How to use CSS to make the product list visually appealing.
+
+How to use JavaScript to.
+
+Access and manipulate the DOM elements.
+
+
+dynamically update visible content based on user input.
