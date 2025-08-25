@@ -1,0 +1,1 @@
+I built an interactive SVG drawing tool where users click and drag inside an SVG canvas to draw shapes that update in real time using mousedown, mousemove, and mouseup. I learned to create/manipulate SVG elements with JavaScript, track mouse coordinates, and manage drawing state to support multiple shapes without reloading the page.
