@@ -1,0 +1,42 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 6px;
+  margin: 4px;
+}
+
+button {
+  padding: 6px 10px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.book-list {
+  margin-top: 15px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.book-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+ 

@@ -1,0 +1,38 @@
+Title
+Library Management UI with Search, Add, and Remove Book Functionality
+
+This just means we are going to build a small React app that shows a list of books and lets the user search
+the list, add new books, and remove books — all without reloading the page.
+
+We want to learn React basics.
+State = where we keep changing data (like the book list).
+Props = how components receive data or actions from their parent.
+Event handling = responding to clicks and typing.
+Dynamic rendering = React updates the screen automatically when state changes.
+
+step by step:
+
+Create a new React (Vite) project.
+1. Make an App.jsx as the main page that holds the book data and functions.
+2. In App.jsx create a books state (array of objects with title and author).
+3. Also create a search state (string) in App.jsx.
+4. Make a SearchBar component (in src/components/SearchBar.jsx).
+5. SearchBar has an input; when the user types it calls a prop function to update search.
+6. In App.jsx filter books using the search value (match title or author).
+7. Make an AddBookForm component (in src/components/AddBookForm.jsx).
+8. AddBookForm has two inputs (title, author) and a submit button; it calls a prop function addBook(title, author) on submit.
+9. In App.jsx implement addBook to push a new book into the books state (use a unique id or Date.now() for keys).
+10. Make a BookList component (in src/components/BookList.jsx) that receives the filtered books and a removeBook(indexOrId) prop.
+11. Render each book in BookList with a Remove button that calls removeBook for that book.
+12. In App.jsx implement removeBook to update the books state and remove the chosen book.
+13. Test the app: type in the search box to filter, add new books with the form, and remove books with the Remove button — the page must not reload.
+
+Learning Outcomes
+
+State management → store and update the list of books and the search text.
+Props and component structure → pass data and functions from App to child components.
+Lifting state → keep the main data in App so child components can interact via props.
+Controlled components → inputs in the add form and search bar are controlled by React state.
+Event handling → handle typing, submit, and button clicks.
+Dynamic rendering → React re-renders the UI automatically when state changes.
+Lists & keys → render arrays with unique keys and safely add/remove items.
