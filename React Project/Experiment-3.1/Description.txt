@@ -1,0 +1,39 @@
+Title
+ProductCard Component Using Props
+
+This just means
+We are going to make a React component called ProductCard.
+It will show product details like name, price, and stock status.
+Instead of hardcoding the data inside the component, we will use props.
+Props = data we send into a component from outside.
+This will help us learn how to make reusable components in React.
+
+step by step
+
+1. Create a new React project (Vite or Create React App).
+2. Inside src/components/, create a file named ProductCard.jsx.
+3. In ProductCard, accept props: name, price, inStock.
+4. Display these props in a card-like box. 
+
+Example:
+Product Name: Phone
+Price: $500
+Status: In Stock
+
+5. Style the box with a border, padding, and margin so it looks neat.
+6. In App.jsx, import ProductCard.
+7. Render multiple ProductCard components with different data.
+
+Example:
+
+<ProductCard name="Laptop" price="$1200" inStock={true} />
+<ProductCard name="Headphones" price="$100" inStock={false} />
+
+8. Each card will display data based on props, without changing the ProductCard code.
+
+Learning Outcomes
+
+Props → A way to pass data into components.
+Reusability → One component can display different products just by changing props.
+Dynamic rendering → UI updates based on the values passed in.
+Component design → Separating code into small, reusable parts.
