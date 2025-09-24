@@ -1,1 +1,33 @@
+Title
 
+REST API for Playing Card Collection Using Express.js
+
+Description
+
+This project involves building a RESTful API with Express.js to manage a collection of playing cards. The API provides endpoints that allow clients to perform common operations such as:
+
+Listing all cards
+
+Adding a new card (with properties like suit and value)
+
+Retrieving a card by its ID
+
+Deleting a card by its ID
+
+The card data is stored in an in-memory array, making the system simple and easy to understand without needing a database. The project emphasizes the use of RESTful principles, proper use of HTTP methods (GET, POST, DELETE), and returning structured JSON responses.
+
+Learning Outcomes
+
+By completing this project, you will:
+
+Gain practical experience in building a RESTful API with Express.js.
+
+Understand how to define and use routes for different HTTP methods.
+
+Learn how to handle CRUD-like operations using an in-memory array.
+
+Improve skills in sending and receiving JSON data between client and server.
+
+Strengthen understanding of RESTful design principles and how they apply to real-world APIs.
+
+Practice error handling and sending appropriate HTTP status codes in API responses.
