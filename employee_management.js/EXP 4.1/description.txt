@@ -1,1 +1,21 @@
+Title
 
+CLI Employee Management System Using Node.js and Arrays
+
+Description
+
+This project is a command-line interface (CLI) application built with Node.js to manage employees in memory using arrays. The system allows users to interactively add employees (with name and ID), view the list of all employees, and remove employees by their ID. It makes use of the Node.js readline module for handling user input, ensuring a simple and interactive experience within the terminal. Data is stored only in arrays for the session, with no external files or databases involved.
+
+Learning Outcomes
+
+By completing this project, you will:
+
+Understand how to create interactive CLI applications using Node.js.
+
+Learn how to capture and process user input with the readline module.
+
+Strengthen knowledge of array operations such as adding, displaying, and removing elements.
+
+Gain practical experience in structuring a small-scale Node.js project.
+
+Develop problem-solving skills for real-time user interaction and data handling in memory.
