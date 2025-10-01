@@ -1,1 +1,38 @@
+Title
+CRUD Operations for Product Database Using Mongoose
 
+Description (Simple)
+In this task, I learned how to build a simple Node.js 
+application that connects to MongoDB using Mongoose.
+i created a Product database and perform CRUD operations – Create (add new product), 
+Read (view products), Update (edit product), and Delete (remove product).
+
+Steps (Simple)
+
+Setup Project
+Install Node.js and MongoDB.
+Create a new Node.js project (npm init -y).
+Install dependencies: npm install express mongoose.
+Connect to MongoDB
+Use Mongoose to connect your app to MongoDB.
+Create Product Model
+Define a schema with fields like:
+name (String)
+price (Number)
+category (String)
+Implement CRUD Operations
+Create: Add a new product.
+Read: Get all products.
+Update: Update product details using its ID.
+Delete: Remove a product using its ID.
+
+Test Your App
+Use Postman or browser to test API endpoints.
+Check if database updates correctly.
+Learning Outcomes
+By completing this task, you will:
+Understand how to connect Node.js with MongoDB using Mongoose.
+Learn how to design and use a schema (data structure).
+Practice creating REST API routes for CRUD operations.
+Gain experience with data validation and error handling.
+Build a foundation for developing larger, real-world applications.
